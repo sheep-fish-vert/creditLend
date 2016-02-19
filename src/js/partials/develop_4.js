@@ -1,5 +1,8 @@
 try{
     function regionSelection(){
+        $('.region-button').click(function() {
+             $( "#region" ).selectmenu('open');
+        });
         $( "#region" ).selectmenu();
     }
     function sliderRange(){
