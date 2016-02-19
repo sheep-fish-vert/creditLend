@@ -1,15 +1,19 @@
+function blockHeightCalc(){
+    var findBlockHeight = $(window).height() - $('footer').height() ;
+        $('.conteiner-ty').height(findBlockHeight);
+}
+
 try{
 
     $(document).ready(function(){
-
     });
 
     $(window).load(function(){
-
+        blockHeightCalc();
     });
 
     $(window).resize(function(){
-
+        blockHeightCalc();
     });
 
 }
