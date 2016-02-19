@@ -170,9 +170,9 @@ function popNext(popupId, popupWrap){
 
     $.fancybox.open(popupId,{
         padding:0,
-        fitToView:false,
-        wrapCSS:popupWrap,
+        fitToView:true,
         autoSize:true,
+        wrapCSS:popupWrap,
         afterClose: function(){
             $('form').trigger("reset");
             clearTimeout(timer);
