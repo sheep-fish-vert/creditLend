@@ -1,9 +1,15 @@
-.thanks{
-    .conteiner-ty{
+.thanks{ background-image: url(../images/ty-bg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center center;
+    .conteiner-ty{ display: flex;  align-items: center;
         .convert{ text-align: center;
             .title-thanks{ font-family: "Lora", sans-serif; font-weight: 700; font-size: 54px; line-height: 74px;}
-            .aftertext{}
-            .go-to-main{ display: block;}
+            .aftertext{font-family: "CenturyGothic", sans-serif; font-weight: 400; font-size: 24px; line-height: 36px; max-width: 550px; margin: 0 auto;
+            }
+            .go-to-main{ font-family: "CenturyGothic", sans-serif; font-weight: 400; font-size: 22px; line-height: 74px; color: #03acc0;text-decoration: none; transition: all 0.5s; position: relative;
+                &:after{content: ''; position: absolute; bottom: 0; left: 0; right: 100%; height: 2px; background-color: #03acc0; transition: all 0.5s; }
+                &:hover{
+                    &:after{right: 0;}
+                }
+            }
 
         }
     }
