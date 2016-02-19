@@ -10,32 +10,36 @@
                     <select name="region" id="region">
                       <option selected="selected">Москва</option>
                       <option>Москва2</option>
-                      <option>Москва3</option>
+                      <option>Москва3-testtest</option>
                       <option>Москва4</option>
                       <option>Москва5</option>
                     </select>
                     <span class="region-button">изменить</span>
                 </fieldset>
                 <div class="slider-range">
-                    <div class="slider-range-item">
-                        <p>
+                    <div class="slider-range-item cfix">
+                        <div class="cfix">
                           <label for="amoun-credit">Сумма кредита</label>
                           <input type="text" id="amoun-credit" readonly value="200000" >
-                          <span></span>
-                        </p>
+                          <span>&#8381</span>
+                        </div>
                         <div class="slider-credit" data-min="30000" data-max="1000000" data-step="10000"></div>
+                        <div class="min-value">30 000</div>
+                        <div class="max-value">1 000 000</div>
                     </div>
-                    <div class="slider-range-item">
-                        <p>
-                          <label for="date-credit">Сумма кредита</label>
+                    <div class="slider-range-item cfix">
+                        <div class="cfix">
+                          <label for="date-credit">Срок кредитование</label>
                           <input type="text" id="date-credit"  readonly value="12">
-                          <span></span>
-                        </p>
+                          <span> мес.</span>
+                        </div>
                         <div class="slider-credit" data-min="1" data-max="36" data-step="1"></div>
+                        <div class="min-value">1 мес.</div>
+                        <div class="max-value">36 мес.</div>
                     </div>
                 </div>
                 <div class="draggable-button">
-                    <a href="#" class="button"><span>Оформить заявку бесплатно!</span></a>
+                    <button type="submit" class="button"><span>Оформить заявку бесплатно!</span></button>
                 </div>
             </div>
         </form>

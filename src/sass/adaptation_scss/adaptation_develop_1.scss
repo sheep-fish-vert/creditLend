@@ -10,19 +10,113 @@
 @media screen and (max-width: 1280px){
 
 }
+@media screen and (max-width: 1170px){
+
+    /* offer */
+
+        .offer{
+            .offer-form-percent{font-size: 16px;width: 230px;}
+            .offer-form-price, .offer-form-time{font-size: 18px;}
+            .offer-form-price{width: 150px;}
+            .offer-form-time{width: 80px;}
+        }
+
+    /* /offer */
+
+    /* viewview */
+
+        .viewview{
+            .viewview-title{font-size: 26px;;line-height: 34px;}
+            .viewview-list{
+                li{font-size: 16px;line-height: 22px;margin-bottom: 40px;}
+            }
+        }
+
+    /* /viewview */
+
+}
 @media screen and (max-width: 1024px){
+
+    /* viewview */
+
+        .viewview{width: 100%;float: none;margin-left:0;
+            .viewview-title{text-align: center;}
+            .viewview-list{
+                ul{display: flex;justify-content:space-around;align-items:flex-start;}
+                li{padding: 0 10px 0 45px;}
+            }
+        }
+
+    /* /viewview */
 
 }
 @media screen and (max-width: 992px){
 
 }
+@media screen and (max-width: 960px){
+
+    /* offer */
+
+        .offer{
+            .offer-form-row{flex-wrap:wrap;justify-content:space-around;padding:10px 25px;
+                >div{padding: 10px 0;
+                    &.offer-form-checkbox{padding: 10px;}
+                }
+            }
+            .offer-form-img{width: 135px;}
+        }
+
+    /* /offer */
+
+}
 @media screen and (max-width: 767px){
+
+    /* viewview */
+
+        .viewview{
+            .viewview-list{
+                ul{flex-wrap:wrap;}
+                li{width: 50%;}
+            }
+        }
+
+    /* /viewview */
 
 }
 @media screen and (max-width: 666px){
 
+    /* offer */
+
+        .offer{
+            .offer-title{font-size: 44px;}
+            .offer-text{font-size: 20px;line-height: 30px;}
+        }
+
+    /* /offer */
+
+    /* viewview */
+
+        .viewview{
+            .viewview-title{font-size: 22px;line-height: 30px;}
+            .viewview-list{
+                ul{display: block;}
+                li{width: 100%;padding: 0 0 0 45px;margin-bottom: 30px;}
+            }
+        }
+
+    /* /viewview */
+
 }
 @media screen and (max-width: 479px){
+
+    /* offer */
+
+        .offer{
+            .offer-title{font-size: 36px;}
+            .offer-text{font-size: 18px;line-height: 28px;}
+        }
+
+    /* /offer */
 
 }
 @media screen and (max-width: 320px){

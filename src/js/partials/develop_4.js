@@ -1,12 +1,17 @@
 try{
     function regionSelection(){
+        $('.region-button').click(function() {
+             $( "#region" ).selectmenu('open');
+        });
         $( "#region" ).selectmenu();
     }
     function sliderRange(){
+
         function numberWithSpaces(x) {
             return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
         }
-        $('.slider-credit').each(function(index, el) {
+
+        $('.slider-credit').each(function() {
             var max = $(this).data('max'),
                 min = $(this).data('min'),
                 step = $(this).data('step');
