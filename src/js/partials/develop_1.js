@@ -1,6 +1,17 @@
 try{
 
+    function offerButtonClick(){
+        $('.offer-form-button').click(function(){
+
+            var parent = $(this).parents('.offer-form-row');
+            parent.find('.offer-form-checkbox input').click();
+
+        });
+    };
+
     $(document).ready(function(){
+
+        offerButtonClick();
 
     });
 
