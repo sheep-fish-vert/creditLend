@@ -3,5 +3,41 @@
         <div class="draggable-title">
             <h1>Успейте оформить заявку на потребительский кредит до 12 февраля 2016!</h1>
         </div>
+        <form action="" name="">
+            <div class="my-region">
+                <fieldset>
+                    <label for="region">Ваш регион:</label>
+                    <select name="region" id="region">
+                      <option selected="selected">Москва</option>
+                      <option>Москва2</option>
+                      <option>Москва3</option>
+                      <option>Москва4</option>
+                      <option>Москва5</option>
+                    </select>
+                    <span class="region-button">изменить</span>
+                </fieldset>
+                <div class="slider-range">
+                    <div class="slider-range-item">
+                        <p>
+                          <label for="amoun-credit">Сумма кредита</label>
+                          <input type="text" id="amoun-credit" readonly value="200000" >
+                          <span></span>
+                        </p>
+                        <div class="slider-credit" data-min="30000" data-max="1000000" data-step="10000"></div>
+                    </div>
+                    <div class="slider-range-item">
+                        <p>
+                          <label for="date-credit">Сумма кредита</label>
+                          <input type="text" id="date-credit"  readonly value="12">
+                          <span></span>
+                        </p>
+                        <div class="slider-credit" data-min="1" data-max="36" data-step="1"></div>
+                    </div>
+                </div>
+                <div class="draggable-button">
+                    <a href="#" class="button"><span>Оформить заявку бесплатно!</span></a>
+                </div>
+            </div>
+        </form>
     </div>
 </div>
