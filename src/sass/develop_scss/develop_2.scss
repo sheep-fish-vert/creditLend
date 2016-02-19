@@ -18,3 +18,10 @@
 .conteiner-footer{ text-align: center; background-color: #252525;
     .texter{line-height: 45px; color: #cccccc;}
 }
+
+.wrap-partners{ float: right; width: calc(100% - 400px);
+    .title-text{font-family: 'CenturyGothic',sans-serif; font-size: 26px; line-height: 74px;text-align: center; font-weight: 400;}
+    .convert-fl{display: flex; justify-content: center; width: 100%;
+        a{display: block; text-decoration: none; width: calc(100%/3);}
+    }
+}
