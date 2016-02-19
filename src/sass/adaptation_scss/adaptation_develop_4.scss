@@ -11,10 +11,24 @@
 
 }
 @media screen and (max-width: 1024px){
-
+    .draggable{float: none;width: 100%;padding-bottom: 78px;
+        .my-region{margin:0 auto;}
+        .draggable-button{text-align: center;}
+    }
 }
 @media screen and (max-width: 992px){
-
+    .gradient-block{padding-top: 40px;}
+    .draggable{padding-bottom: 0px;padding-bottom: 40px;
+        .draggable-title{padding-right: 0;text-align: center;font-size: 44px;line-height: 55px;padding-bottom: 35px;}
+        .my-region fieldset{font-size: 20px;padding:0 10px;padding-bottom: 34px;}
+        .my-region fieldset .ui-selectmenu-button{margin-bottom: -7px;font-size: 24px;}
+        .my-region fieldset .region-button{margin-left: 0px;}
+        .my-region .slider-range-item input{max-width: 145px;}
+        .my-region .slider-range-item{padding-bottom: 27px;}
+        .my-region{margin:0 auto;}
+        .draggable-button{text-align: center;}
+        .slider-range{padding:0 10px;}
+    }
 }
 @media screen and (max-width: 767px){
 
