@@ -66,10 +66,8 @@
     /* offer */
 
         .offer{
-            .offer-form-row{flex-wrap:wrap;justify-content:space-around;padding:10px 25px;
-                >div{padding: 10px 0;
-                    &.offer-form-checkbox{padding: 10px;}
-                }
+            .offer-form-row{flex-wrap:wrap;justify-content:space-around;padding:10px 15px;
+                >div{padding: 10px 0px;margin:0 5px;}
             }
             .offer-form-img{width: 135px;}
         }
