@@ -68,6 +68,17 @@
 
     /* /offer */
 
+    /* index-form */
+
+        .index-form{width: 300px;
+            .form-title{font-size: 16px;}
+            .submit-wrap{
+                .button{font-size: 14px;}
+            }
+        }
+
+    /* /index-form */
+
 }
 @media screen and (max-width: 767px){
 
@@ -81,6 +92,14 @@
         }
 
     /* /viewview */
+
+    /* index-form */
+
+        .index-form{max-width:400px;width: 100%;float: none;margin:0 auto;
+
+        }
+
+    /* /index-form */
 
 }
 @media screen and (max-width: 666px){

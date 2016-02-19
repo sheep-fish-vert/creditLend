@@ -59,8 +59,27 @@
 
     .index-form{float: left;width: 400px;
 
-        .submit-description-icon{display: inline-block;vertical-align: middle;width: 6px;height: 9px;background-image:url(../images/submit-description-icon.png);margin-right: 5px;}
-        .submit-description-text{font-size: 12px;color:#999999;}
+        .form_row{margin-bottom: 30px;
+            &:last-child{margin-bottom: 0;}
+        }
+        .form_input{
+            input{width: 100%;padding: 0 10px;height: 45px;line-height: 45px;border:1px solid #cccccc;font-size: 16px;font-family: 'CenturyGothic', sans-serif;
+                &:focus{border-color:#0077dd;}
+                &.error{border-color:#d01313;}
+            }
+            .errorText{display: none!important;}
+        }
+
+        .form-title{color:#333333;font-size: 18px;margin-bottom: 15px;
+            span{color:#3192e3;}
+        }
+
+        .submit-wrap{
+            .button{max-width: 400px;}
+        }
+
+        .submit-description-icon{display: inline-block;vertical-align: middle;width: 6px;height: 9px;background-image:url(../images/submit-description-icon.png);margin-right: 3px;}
+        .submit-description-text{font-size: 12px;color:#999999;display: inline-block;vertical-align: middle;width: calc(100% - 18px);}
     }
 
 /* /input-form */

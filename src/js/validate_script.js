@@ -212,6 +212,7 @@ function fancyboxForm(){
 
 $(document).ready(function(){
    validate('#call-popup .contact-form', {submitFunction:validationCall});
+   validate('.index-form-main', {submitFunction:validationCall});
    Maskedinput();
    fancyboxForm();
 });
