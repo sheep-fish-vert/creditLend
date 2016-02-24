@@ -6,6 +6,17 @@ function blockHeightCalc(){
 try{
 
     $(document).ready(function(){
+        var flagg = true ;
+        $('.draggable-button>button').click(function(){
+            if (flagg){
+                $('.white-block').slideDown("slow", function(){
+                    var target = $('.white-block').offset().top;
+                    $(scroller).animate({scrollTop:target},500);
+                });
+                flagg = false ;
+            }
+
+        })
     });
 
     $(window).load(function(){
