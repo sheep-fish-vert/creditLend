@@ -11,8 +11,7 @@
 
 }
 @media screen and (max-width: 1024px){
-    .wrap-partners{ float: none; width: 100%;}
-
+    .wrap-text{ float: none; width: 100%;}
 }
 @media screen and (max-width: 992px){
     .wrap-partners .convert-fl a { width: 28%; margin: 0 calc((100% - 28%*3)/6);}
@@ -24,6 +23,7 @@
 }
 @media screen and (max-width: 666px){
     .wrap-partners .convert-fl a { width: 40%; margin: 0 calc((100% - 40%*2)/4); min-height: 60px;}
+    .wrap-text .after-text ul li { font-size: 16px; }
 }
 @media screen and (max-width: 479px){
 
